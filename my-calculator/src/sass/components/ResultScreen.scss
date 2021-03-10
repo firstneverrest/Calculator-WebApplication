@@ -1,0 +1,18 @@
+.ResultScreen {
+    font-size: 4.5rem;
+    flex-grow: 1;
+    position: relative;
+
+    &__history{
+        position: absolute;
+        right: 3rem;
+        bottom: 8rem;
+    }
+
+    &__result {
+        position: absolute;
+        right: 3rem;
+        bottom: 1.5rem;
+    }
+
+}

@@ -1,0 +1,22 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin glassmorphism {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 8px 32px 0 rgba(76, 76, 80, 0.37);
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}

@@ -1,0 +1,43 @@
+.Header {
+    max-width: 30rem;
+    height: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+
+    @include glassmorphism;
+
+    @media only screen and (max-width: $bp-smallest) {
+        max-width: 28rem;
+    }
+
+    & h1:before{
+        content: 'My Calculator';
+        color: $color-white;
+        font-size: 2.8rem;
+        letter-spacing: 3px;
+        width: 100%;
+
+        animation-name: word-fade;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        
+        @include absCenter;
+
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 2.4rem;
+        }
+    }
+    
+    @keyframes word-fade {
+        0% {opacity:1;}
+        25% {opacity:0;}
+        50% {opacity:1; content: "By Neverrest"}
+        75% {opacity:0;}
+        100% {opacity:1; content: "My Calculator"}
+    }
+
+}
+

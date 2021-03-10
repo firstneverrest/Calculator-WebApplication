@@ -1,0 +1,21 @@
+.CalculatorHistory {
+    position: relative;
+
+    &__icon {
+        font-size: 3rem;
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        z-index: 10;
+        transition: all .5s;
+
+        &:hover {
+            transform: translateY(-.5rem);
+        }
+    }
+
+}
+
+
+
+

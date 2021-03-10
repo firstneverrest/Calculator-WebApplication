@@ -1,0 +1,16 @@
+.CalculatorBuilder {
+    max-width: 35rem;
+    height: 56rem;
+    margin: 3rem auto;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    @include glassmorphism;
+
+    @media only screen and (max-width: $bp-smallest) {
+        max-width: 30rem;
+    }
+}
+
