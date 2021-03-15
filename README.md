@@ -1,7 +1,7 @@
 # Calculator-WebApplication ✨
 ![image](https://github.com/firstneverrest/Calculator-WebApplication/blob/master/my-calculator-thumbnail.jpg)
 
-The calculator web application represent digital calculator which common use in mobile phone. I created this project to start practising React and JavaScript.
+The calculator web application represents digital calculator which common use in mobile phone. I created this project to start practising React and JavaScript.
 ### Technologies
 ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
